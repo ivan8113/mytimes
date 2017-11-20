@@ -1,9 +1,41 @@
 body{
-  font-family: Verdana
-}
-.logo{
+  font-family: Verdana;
+  color: black;
 
 }
-.tittle {
+header{
+  display: flex;
+  align-items: center;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  height: 80px;
+  border-bottom: 1px solid black;
+  color: MediumAquamarine;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  background-color: white;
+}
+.logo img {
+  width: 70px;
+  height: 60px;
+  margin-right: 12px;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  padding-left: 30px;
+}
+header nav {
+  padding-right: 50px
+}
+a{
+  color: black;
+}
+nav span {
+  display: inline-block;
+  padding: 20px 10px;
 
 }
